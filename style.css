@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #d0eefe, #88c9f9);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+    height: 620px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    border: none;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 700; 
+    color: #000000; 
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.Text {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+#fromText, #toText {
+    width: 100%;
+    height: 260px;
+    background-color: #f9f9f9;
+    color: #2E3A59;
+    font-size: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#toText {
+    margin-right: 7px;
+}
+
+#fromText {
+    margin-left: 7px;
+}
+
+.selectArea {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e1f3fb;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.select1, .select2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.select1 {
+    border-right: 4px solid #ffffff;
+    border-radius: 10px 0 0 10px;
+}
+
+.select2 {
+    border-left: 4px solid #ffffff;
+    border-radius: 0 10px 10px 0;
+}
+
+#fselect, #sselect {
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    color: #2E3A59;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#transfer {
+    width: 500px;
+    height: 50px;
+   background-color: #ffe599;
+    color: #2E3A59;
+    margin-top: 50px;
+    color: #333;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#transfer:hover {
+    background-color: #FFD54F;
+}
+
+.speaker, .copy {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.speaker:hover, .copy:hover {
+    transform: scale(1.3);
+}
+#from{
+    height: 20px;
+}
+#to{
+    height: 20px;
+}
