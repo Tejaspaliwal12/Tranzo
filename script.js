@@ -27,8 +27,6 @@ translateBtn.addEventListener("click", () => {
     let targetLanguage = selectTag[1].value; 
 
 
-    const GOOGLE_CLOUD_TRANSLATE_API_KEY = 'AIzaSyBX3luQADKlOX777G6oSUIG3Gx_KH-Yv3g';
-    const GOOGLE_CLOUD_TRANSLATE_ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
     const requestBody = {
         q: textToTranslate,
